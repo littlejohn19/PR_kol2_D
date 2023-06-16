@@ -12,7 +12,7 @@ class Posts extends Component {
     }
 
     componentDidMount() {
-        fetch("https://localhost:3001/api/posts")
+        fetch("http://localhost:3001/api/posts")
             .then(res => res.json())
             .then(
                 (result) => {
