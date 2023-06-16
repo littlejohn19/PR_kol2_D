@@ -4,10 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from "./components/home";
-import Posts from "./components/posts";
-import LoginForm from "./components/loginForm";
-import NotFound from "./components/notFound";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
