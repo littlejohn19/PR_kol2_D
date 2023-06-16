@@ -1,28 +1,36 @@
-# Programowanie reaktywne - kolokwium 2 - Grupa 1
+# Programowanie reaktywne - kolokwium 2 - Grupa 4
 
 
 ## 1. Instalacja i uruchomienie projektu
 
-## 2. Dodanie nawigacji.
+
+## 2. Dodanie komponentu "home"
+
+W tym zadaniu należy zbudować komponent Home, który będzie będzie służyć jako strona główna aplikacji.
+Strona ta powinna wyświetlać element div z miejscem na 2 kontrolki i przycisk (zadanie 6).
+
+## 3. Routing  
+
+W zadaniu należy dodać routing do aplikacji. Strona główna powinna przekierowywać na komponent HOME.
+
+Ścieżka 'posts' powinna przekierowywać na komponent z postami.
+
+## 4. Dodanie nawigacji.
 
 W tym zadaniu należy dodać nawigację - komponent klasowy XYnavbar.jsx (XY - inicjały).
 Komponent będzie zawierał menu, za pomocą którego będzie można przechodzić pomiędzy komponetnami posts oraz XYhome.
 Menu powinno być widoczne w każdym widoku.
 
-## 3. Wyświetlenie danych pobranych w komponencie posts
+## 5. Wyświetlenie danych pobranych w komponencie posts. Dodanie komponentu Post
 
 W tym zadaniu należy wyświetlić dane w elemencie Card - bootstrap.
 W komponencie posts przygotowany jest element card. Zadaniem jest wyświetlenie podpisu grafiki oraz tekstu w tym komponencie w odpowiednich znacznikach.
 Np. w img - item.image
 
-## 4. Stworzenie nowego komponentu
+Następnie kod odpowiedzialny za wyświetlenie postów (Card) należy przenieść do nowego komponentu Post, który otrzyma dane jako props i zostanie wywołaby tyle razy, ile postów zostanie pobranych.
 
-Należy stworzyć nowy komponent FUNKCYJNY, który będzie nazywać się - XYhome.jsx (XY - to inicjały).
+## 6. Obsłużenie akcji
 
-W tym zadaniu trzeba dodać routing do nowego komponentu, którym będzie ścieżka "/home".
+W komponencie HOME należy dodać dwie kontrolki typu number oraz przycisk - policz.
 
-Będzie on zawierał napis Hello, world! oraz przycisk.
-Naciśnięcie tego przycisku zamienia słowo "World" na Twoje imię.
-
-
-https://drive.google.com/drive/folders/1qoMDpEVKTj00vCQLpHFLMPwzAmBGoOrL?usp=sharing
+Po wpisyaniu w obie kontrolki liczb i kliknięciu przycisku pojawi się obok wynik dodawania.
